@@ -1,0 +1,47 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="pragma" content="public">
+    <meta http-equiv="cache-control" content="public">
+
+    <title>Cheatsheets</title>
+    <meta name="description" content="The personal cheatsheets of Kaspar Minosiants">
+    <meta name="author" content="Kaspar Minosiants">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css" rel="stylesheet">
+    
+    <style type="text/css">
+
+    * {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+    body {font-family: "Droid Sans","Baskerville",serif; background-color: rgba(2, 2, 2, 0.8); color: rgba(255, 255, 255, 0.7); }
+    .canvas{margin:1rem auto; width:90%; /* 288 px*/ }    
+
+
+</style>
+
+</head>
+
+<body>
+    <section class="canvas">
+      <h1>
+        {{ page.title }}
+        <a class='back' href='.'>Index</a>
+      </h1>
+
+        {% for page in site.pages %}
+        <a href=".{{ page.url }}">{{ page.title }}</a>
+        {% endfor %}
+   </section>
+</body>
+
+</html>
