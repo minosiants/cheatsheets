@@ -1,4 +1,4 @@
 ---
 title: HTML
-layout: default
+layout: home
 ---
