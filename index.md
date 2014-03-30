@@ -1,4 +1,4 @@
 ---
 title: Cheatsheets
-layout: default
+layout: home
 ---
