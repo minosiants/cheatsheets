@@ -33,12 +33,18 @@
 
 <body>
     <section class="canvas">
+
+
       <h1>
         {{ page.title }}
-          <a class='back' href='.'>Index</a>
+        <a class='back' href='.'>Index</a>
       </h1>
 
-      {{ content }}
+      {% for page in site.pages %}
+        <a href=".{{ page.url }}">{{ page.title }}</a>
+      {% endfor %}
+
+
 
    </section>
 </body>
