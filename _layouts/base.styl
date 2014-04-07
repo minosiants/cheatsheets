@@ -1,0 +1,92 @@
+var-main-backgrount-color = rgba(252,251,227, .7)
+
+var-main-color = rgb(48,0,24)
+
+var-link-background-color = rgba(45, 36, 41, 0.1)
+
+var-link-color = rgb(45, 36, 41)
+
+var-big-link-color = rgb(48,0,24)
+
+var-link-hovered-background-color = rgba(252,251,227, 0.3)
+
+var-screen-med-min = "screen and (min-width: 1058px)"
+
+* 
+  box-sizing border-box
+
+html
+  
+  background-color rgb(48,0,24)
+  
+  position relative
+
+body 
+  font-family Helvetica, arial, freesans, clean, sans-serif;  
+  font-size 14px
+  line-height 1.5
+  background inherit
+
+
+html, body, .canvas
+  height 100%        
+
+blur-filter()
+  z-index 5
+  /*&:before
+    content ''
+    position absolute    
+    top 0; left 0; right 0; bottom 0
+    background inherit
+    filter blur(2px)
+    -webkit-filter blur(2px)*/
+
+.canvas
+  blur-filter()
+  padding-top 1rem 
+  padding-bottom: 1rem  
+  background inherit
+  position relative  
+
+
+    
+.content
+  margin 1rem auto; width:90%
+  padding 1rem
+  background-color var-main-backgrount-color 
+  border-radius 2px
+  box-shadow 1px 0 0 rgba(45,36,41, 0.05)
+  color var-main-color 
+  position relative  
+  border 10px solid rgba(252,251,227,.5)
+  border-radius: 10px;
+  @media var-screen-med-min
+    width 60%
+
+.content  a
+  text-decoration none
+  color var-link-color
+  border-radius 2px
+  max-height 100%
+
+header
+  border-bottom 1px solid var-big-link-color  
+  margin-bottom 1rem  
+  h1
+    position relative
+    a
+      position absolute
+      right 0 
+    
+.links a
+  margin-right 1px
+  margin-bottom 4px
+  padding .5rem  
+  display inline-block
+  background var-link-hovered-background-color
+  box-shadow 0px 1px 0 rgba(45, 36, 41, 0.4)  
+  @media var-screen-med-min
+    padding .1rem .2rem    
+
+.links a:hover
+  background var-link-background-color

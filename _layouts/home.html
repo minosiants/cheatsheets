@@ -18,14 +18,86 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
     <link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css" rel="stylesheet">
-    
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+   <!--  <link href='css/base.css' rel='stylesheet' type='text/css'> -->
     <style type="text/css">
 
-    * {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-    body {font-family: "Droid Sans","Baskerville",serif;}
-    .canvas{margin:1rem auto; width:90%; /* 288 px*/ }    
-
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: #300018;
+  position: relative;
+}
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  background: inherit;
+}
+html,
+body,
+.canvas {
+  height: 100%;
+}
+.canvas {
+  z-index: 5;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: inherit;
+  position: relative;
+}
+.content {
+  margin: 1rem auto;
+  width: 90%;
+  padding: 1rem;
+  background-color: rgba(252,251,227,0.7);
+  border-radius: 2px;
+  box-shadow: 1px 0 0 rgba(45,36,41,0.05);
+  color: #300018;
+  position: relative;
+  border: 10px solid rgba(252,251,227,0.5);
+  border-radius: 10px;
+}
+@media screen and (min-width: 1058px) {
+  .content {
+    width: 60%;
+  }
+}
+.content a {
+  text-decoration: none;
+  color: #2d2429;
+  border-radius: 2px;
+  max-height: 100%;
+}
+header {
+  border-bottom: 1px solid #300018;
+  margin-bottom: 1rem;
+}
+header h1 {
+  position: relative;
+}
+header h1 a {
+  position: absolute;
+  right: 0;
+}
+.links a {
+  margin-right: 1px;
+  margin-bottom: 4px;
+  padding: 0.5rem;
+  display: inline-block;
+  background: rgba(252,251,227,0.3);
+  box-shadow: 0px 1px 0 rgba(45,36,41,0.4);
+}
+@media screen and (min-width: 1058px) {
+  .links a {
+    padding: 0.1rem 0.2rem;
+  }
+}
+.links a:hover {
+  background: rgba(45,36,41,0.1);
+}
+    
 
 </style>
 
@@ -33,17 +105,54 @@
 
 <body>
     <section class="canvas">
-
-
-      <h1>
-        {{ page.title }}
-        <a class='back' href='.'>Index</a>
-      </h1>
-
-      {% for page in site.pages %}
-        <a href=".{{ page.url }}">{{ page.title }}</a>
-      {% endfor %}
-
+      <section class="content">
+        <header>
+          <h1>
+            Cheatsheets            
+            <a class='back' href='.'>Index</a>
+          </h1>
+          
+        </header>        
+        <section class="links"> 
+          <a href="#">Title gfh1</a>
+          <a href="#">title fff1</a>
+          <a href="#">title</a>
+          <a href="#">title 1</a>
+          <a href="#">titlesdf 1</a>
+          <a href="#">title 1</a>
+          <a href="#">title sdf</a>
+          <a href="#">title 1</a>
+          <a href="#">title 1</a>
+          <a href="#">title 1</a>
+          <a href="#">title 1</a>
+          <a href="#">title 1</a>
+          <a href="#">title gfh1</a>
+          <a href="#">title fff1</a>
+          <a href="#">title</a>
+          <a href="#">title 1</a>
+          <a href="#">titlesdf 1</a>
+          <a href="#">title 1</a>
+          <a href="#">title sdf</a>
+          <a href="#">title 1</a>
+          <a href="#">title 1</a>
+          <a href="#">title 1</a>
+          <a href="#">title 1</a>
+          <a href="#">title 1</a>
+          <a href="#">title gfh1</a>
+          <a href="#">title fff1</a>
+          <a href="#">title</a>
+          <a href="#">title 1</a>
+          <a href="#">titlesdf 1</a>
+          <a href="#">title 1</a>
+          <a href="#">title sdf</a>
+          <a href="#">title 1</a>
+          <a href="#">title 1</a>
+          <a href="#">title 1</a>
+          <a href="#">title 1</a>
+          <a href="#">title 1</a>
+        </section>
+        
+    </section>
 
 
    </section>
