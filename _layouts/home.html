@@ -108,48 +108,15 @@ header h1 a {
       <section class="content">
         <header>
           <h1>
-            Cheatsheets            
+            Cheatsheets
             <a class='back' href='.'>Index</a>
           </h1>
           
         </header>        
         <section class="links"> 
-          <a href="#">Title gfh1</a>
-          <a href="#">title fff1</a>
-          <a href="#">title</a>
-          <a href="#">title 1</a>
-          <a href="#">titlesdf 1</a>
-          <a href="#">title 1</a>
-          <a href="#">title sdf</a>
-          <a href="#">title 1</a>
-          <a href="#">title 1</a>
-          <a href="#">title 1</a>
-          <a href="#">title 1</a>
-          <a href="#">title 1</a>
-          <a href="#">title gfh1</a>
-          <a href="#">title fff1</a>
-          <a href="#">title</a>
-          <a href="#">title 1</a>
-          <a href="#">titlesdf 1</a>
-          <a href="#">title 1</a>
-          <a href="#">title sdf</a>
-          <a href="#">title 1</a>
-          <a href="#">title 1</a>
-          <a href="#">title 1</a>
-          <a href="#">title 1</a>
-          <a href="#">title 1</a>
-          <a href="#">title gfh1</a>
-          <a href="#">title fff1</a>
-          <a href="#">title</a>
-          <a href="#">title 1</a>
-          <a href="#">titlesdf 1</a>
-          <a href="#">title 1</a>
-          <a href="#">title sdf</a>
-          <a href="#">title 1</a>
-          <a href="#">title 1</a>
-          <a href="#">title 1</a>
-          <a href="#">title 1</a>
-          <a href="#">title 1</a>
+          {% for page in site.pages %}
+            <a href=".{{ page.url }}">{{ page.title }}</a>
+          {% endfor %}
         </section>
         
     </section>
