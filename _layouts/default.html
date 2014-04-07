@@ -105,13 +105,15 @@ header h1 a {
 <body>
     <section class="canvas">
       <section class="content">
-        <h1>
-          {{ page.title }}
-            <a class='back' href='.'>Index</a>
-        </h1>
-
-        {{ content }}
-
+        <header>
+          <h1>
+            {{ page.title }}
+              <a class='back' href='.'>Index</a>
+          </h1>
+        </header>
+        <section class="cheatsheet">
+          {{ content }}
+        </section>
       </section>
    </section>
 </body>
