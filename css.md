@@ -4,6 +4,7 @@ layout: default
 ---
 
 [CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+[CSS3 clickchart](http://css3clickchart.com/#box-sizing) [CSS values](http://cssvalues.com)
 
 Selectors
 ---------
