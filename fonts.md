@@ -12,7 +12,7 @@ layout: default
 ```html
 <style> 
 
-   [data-icon] :before
+   &#91; data-icon &#93; :before
    
 	{ font-family: 'icon-font'; content: attr(data-icon); } 
 </style> 
