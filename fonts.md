@@ -3,7 +3,6 @@ title: Fonts
 layout: default
 ---
 
-### Font icons 
 [fontello](http://fontello.com/)
 [icomoon](http://icomoon.io/)
 [responsive-typography](http://www.slideshare.net/clarissapeterson/responsive-typography-27460071)
