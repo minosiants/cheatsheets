@@ -9,9 +9,11 @@ layout: default
 
 ### Font-based icons 
 
-
+```html
 <style> 
-`[`data-icon`]` :before 
+
+   [data-icon] :before
+   
 	{ font-family: 'icon-font'; content: attr(data-icon); } 
 </style> 
 
@@ -19,4 +21,5 @@ layout: default
 	<span data-icon="C" aria-hidden="true"></span> 
 	Save to Cloud 
 </a>
+```
 
