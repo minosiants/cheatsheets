@@ -9,8 +9,6 @@ layout: default
 
 ### Font-based icons 
 
-```html
-
 <style> 
 
    &#91; data-icon &#93; :before
@@ -23,5 +21,4 @@ layout: default
 	Save to Cloud 
 </a>
 
-```
 
