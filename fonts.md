@@ -7,7 +7,8 @@ layout: default
 [icomoon](http://icomoon.io/)
 
 
-### Font-based icons 
+Font-based icons 
+--------
 
 <style> 
 
