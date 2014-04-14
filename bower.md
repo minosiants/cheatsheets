@@ -1,5 +1,5 @@
 ---
-title: CSS
+title: Bower
 layout: default
 ---
 
