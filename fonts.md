@@ -6,6 +6,7 @@ layout: default
 ### Font icons 
 	http://fontello.com/
 	http://icomoon.io/
+
 [responsive-typography](http://www.slideshare.net/clarissapeterson/responsive-typography-27460071)
 
 ### Font-based icons 
