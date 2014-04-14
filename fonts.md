@@ -10,6 +10,7 @@ layout: default
 ### Font-based icons 
 
 ```html
+
 <style> 
 
    &#91; data-icon &#93; :before
@@ -17,9 +18,10 @@ layout: default
 	{ font-family: 'icon-font'; content: attr(data-icon); } 
 </style> 
 
-<a href="http://example.com/cloud/save/"> 
+<a href="/cloud/save/"> 
 	<span data-icon="C" aria-hidden="true"></span> 
 	Save to Cloud 
 </a>
+
 ```
 
