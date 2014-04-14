@@ -7,7 +7,7 @@ layout: default
 [fontello](http://fontello.com/)
 [icomoon](http://icomoon.io/)
 [responsive-typography](http://www.slideshare.net/clarissapeterson/responsive-typography-27460071)
-
+[Bookmarklet to make the text between 45 and 75 characters turn red](http://codepen.io/chriscoyier/pen/atebf)
 ### Font-based icons 
 	<style> 
 	[data-icon]:before 
