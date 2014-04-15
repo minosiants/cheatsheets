@@ -7,7 +7,7 @@ layout: default
 [CSS3 clickchart](http://css3clickchart.com/#box-sizing)
 [CSS values](http://cssvalues.com)
 [CSS3 test](http://css3test.com/)
-
+[Magic Of CSS](http://adamschwartz.co/magic-of-css/)
 
 Selectors
 ---------
