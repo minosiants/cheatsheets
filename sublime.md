@@ -5,7 +5,6 @@ layout: default
 
 ### Hyperminimal UI Theme
 
-```
 Theme - Spacegray
 
 Sublime Text -> Preferences -> Settings - User
@@ -15,4 +14,7 @@ Sublime Text -> Preferences -> Settings - User
   "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
 }
 
-```
+### Shortcuts 
+Hide/Show the Sidebar -CTRL/⌘-K, CTRL/⌘-B
+
+
