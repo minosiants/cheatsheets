@@ -2,25 +2,84 @@
 title: tmux
 layout: default
 ---
+start new:
 
-`tmux new -s basic` -  new session
-`d` detach
+    tmux
 
-`tmux attach -t second_session`
+start new with session name:
 
-`tmux kill-session -t basic`
+    tmux new -s myname
 
-`PREFIX ,` rename windows
+attach:
 
-`PREFIX p/n` previous or next window
+    tmux a  #  (or at, or attach)
 
-`PREFIX w` to display a visual menu of our windows
+attach to named:
 
-`PREFIX &` close window
+    tmux a -t myname
 
-`PREFIX x` close panel or window
+list sessions:
 
-`PREFIX ?` list of keybindings
+    tmux ls
+
+kill session:
+
+    tmux kill-session -t myname
+
+In tmux, hit the prefix `ctrl+b` and then:
+
+## Sessions
+
+    :new<CR>  new session
+    s  list sessions
+    $  name session
+
+## Windows (tabs)
+
+    c           new window
+    ,           name window
+    w           list windows
+    f           find window
+    &           kill window
+    .           move window - prompted for a new number
+    :movew<CR>  move window to the next unused number
+
+## Panes (splits)
+
+    %  horizontal split
+    "  vertical split
+    
+    o  swap panes
+    q  show pane numbers
+    x  kill pane
+    ⍽  space - toggle between layouts
+
+## Window/pane surgery
+
+    :joinp -s :2<CR>  move window 2 into a new pane in the current window
+    :joinp -t :1<CR>  move the current pane into a new pane in window 1
+
+* [Move window to pane](http://unix.stackexchange.com/questions/14300/tmux-move-window-to-pane)
+* [How to reorder windows](http://superuser.com/questions/343572/tmux-how-do-i-reorder-my-windows)
+
+## Misc
+
+    d  detach
+    t  big clock
+    ?  list shortcuts
+    :  prompt
+
+Resources:
+
+* [cheat sheet](http://cheat.errtheblog.com/s/tmux/)
+
+Notes:
+
+* You can cmd+click URLs to open in iTerm.
+
+TODO:
+
+* Conf copy mode to use system clipboard. See PragProg book.
 
 
 http://manpages.ubuntu.com/manpages/precise/en/man1/tmux.1.html#contenttoc6
