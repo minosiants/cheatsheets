@@ -8,7 +8,7 @@ Command line interface
 
 Quick install on a server:
 
-    $ curl get.docker.io | sudo sh -x
+    $ curl -s https://get.docker.io/ubuntu/ | sudo sh
 
 To pull from docker's registry:
 
@@ -28,27 +28,17 @@ To run:
 
     $ docker run -t "ubuntu" -i bash
 
-OSX Install
+Ubuntu Install
 -----------
 
-Prerequisites:
+    http://docs.docker.io/installation/ubuntulinux/
 
-  - Install Virtualbox (`brew install virtualbox`)
-  - Install Vagrant (http://vagrantup.com)
-  - Install go (`brew install go`)
-
-Then make the Docker executable (v0.5.1?):
-
-    $ git clone https://github.com/dotcloud/docker.git ~/src/docker
-    $ cd ~/src/docker
-    $ make
-    $ mv ./bin/docker /usr/local/bin/docker
-
-Then run docker:
-
-    $ cd ~/src/docker
-    $ vagrant up
-
+Giving non-root access
+-----------
+    
+    $ sudo groupadd docker
+    $ sudo gpasswd -a ${USER} docker
+    $ sudo service docker restart
 
 Managing
 --------
