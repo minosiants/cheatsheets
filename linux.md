@@ -3,9 +3,8 @@ title: linux
 layout: default
 ---
 
-Network Share Via Samba
-----------------------
-	[source](http://goo.gl/3lGT8V)
+[Network Share Via Samba](http://goo.gl/3lGT8V)
+----------------------	
 	###Procedures
 		sudo smbpasswd -a <user_name>
 		mkdir /home/<user_name>/<folder_name>
