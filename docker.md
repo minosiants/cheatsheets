@@ -60,6 +60,9 @@ Manage processes:
     $ docker kill $ID
     $ docker rmi $ID
 
+Work around docker rm unmount: [issue](https://github.com/dotcloud/docker/issues/3786#issuecomment-33471966)
+    umount -l $(grep 'aufs' /proc/mounts | awk '{print$2}' | sort -r)
+
 Manage containers:
 
 Updating containers
