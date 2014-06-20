@@ -63,6 +63,12 @@ Manage processes:
 Work around docker rm unmount: [issue](https://github.com/dotcloud/docker/issues/3786#issuecomment-33471966)
     umount -l $(grep 'aufs' /proc/mounts | awk '{print$2}' | sort -r)
 
+Clean command: [issue](https://github.com/dotcloud/docker/issues/928)
+    docker rm `docker ps -aq`
+    https://github.com/blueyed/dotfiles/blob/master/usr/bin/docker-cleanup
+
+    
+
 Manage containers:
 
 Updating containers
