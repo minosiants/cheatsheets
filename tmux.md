@@ -84,5 +84,13 @@ TODO:
 
 http://manpages.ubuntu.com/manpages/precise/en/man1/tmux.1.html#contenttoc6
 
+tmuxinator (https://github.com/aziz/tmuxinator)
+-----------
+    tmux.conf
+        set-window-option -g pane-base-index 1
+    Specify pane percentage
+        tmux list-windows - get layout
+    
+    
 
-https://github.com/aziz/tmuxinator
+
