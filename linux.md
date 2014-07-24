@@ -23,4 +23,11 @@ Network Share Via Samba [source](http://goo.gl/3lGT8V)
 		sudo restart smbd
 		testparm
 
+mount with sshfs
+----------------------	
+	####remote part should have ssh server
+	sudo apt-get install openssh-server
+	
+	sshfs kaspar@IP:/home/kasparfolder /home/kaspar/folder
+		
 
