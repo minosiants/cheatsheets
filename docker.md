@@ -95,3 +95,21 @@ Resources
 ---------
 
  * http://www.docker.io/gettingstarted/
+ 
+Boot2docker
+------------
+proxy settings [stackoverflow](http://stackoverflow.com/questions/24489265/docker-boot2docker-set-http-https-proxies-for-docker-on-osx)
+        
+        docker@boot2docker:~$ sudo vi /var/lib/boot2docker/profile
+        export HTTP_PROXY=http://your.proxy.name:8080
+        export HTTPS_PROXY=http://your.proxy.name:8080
+        
+        sudo /etc/init.d/docker restart
+
+        or put proxy settings into
+        docker@boot2docker:~$ vi ~/.profile
+
+        
+        
+        
+
