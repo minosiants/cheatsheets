@@ -116,6 +116,7 @@ title: Gulp
 https://github.com/gulpjs/gulp/blob/master/docs/README.md
 https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md#getting-started
 http://travismaynard.com/writing/getting-started-with-gulp
+https://github.com/greypants/gulp-starter
 
 ### Livereload
 
