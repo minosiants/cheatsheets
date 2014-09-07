@@ -17,4 +17,15 @@ Sublime Text -> Preferences -> Settings - User
 ### Shortcuts 
 Hide/Show the Sidebar -CTRL/⌘-K, CTRL/⌘-B
 
+Switching between panels  CTRL+1 and CTRL+2
 
+Focus sidebar Ctrl+0
+ 
+
+### Plugins
+
+https://github.com/sublimehq/Vintage
+
+https://github.com/guillermooo/Vintageous
+
+https://github.com/skuroda/Sublime-AdvancedNewFile
