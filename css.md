@@ -8,6 +8,7 @@ layout: default
 [CSS values](http://cssvalues.com)
 [CSS3 test](http://css3test.com/)
 [Magic Of CSS](http://adamschwartz.co/magic-of-css/)
+[Topcoat Coding Guidelines](https://github.com/topcoat/topcoat/wiki/Coding-Guidelines)
 
 Selectors
 ---------
