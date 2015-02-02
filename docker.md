@@ -35,6 +35,16 @@ Ubuntu Install
 
     http://docs.docker.io/installation/ubuntulinux/
 
+Proxy
+-----------
+export http_proxy=
+
+/etc/default/docker.io
+
+sudo service docker.io restart
+
+
+
 Giving non-root access
 -----------
     
