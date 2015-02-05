@@ -30,6 +30,9 @@ To run:
 
     $ docker run -t "ubuntu" -i bash
 
+    $ docker exec -i -t neo4j bash  
+
+
 Ubuntu Install
 -----------
 
