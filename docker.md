@@ -46,6 +46,10 @@ export http_proxy=
 
 sudo service docker.io restart
 
+Registry
+-----------
+docker run -p 5000:5000 registry:2.0
+edit /etc/default/docker  to add DOCKER_OPTS="--insecure-registry=IP_ADDRESS:5000"
 
 
 Giving non-root access
@@ -124,7 +128,6 @@ proxy settings [stackoverflow](http://stackoverflow.com/questions/24489265/docke
         or put proxy settings into
         docker@boot2docker:~$ vi ~/.profile
 
-        
         
         
 
