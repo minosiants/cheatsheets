@@ -36,3 +36,6 @@ mount with sshfs
 	sshfs kaspar@IP:/home/kasparfolder /home/kaspar/folder
 		
 
+wifi
+----------------------	
+http://ubuntuforums.org/showthread.php?t=2200496
