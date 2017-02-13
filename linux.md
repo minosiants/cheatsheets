@@ -39,3 +39,31 @@ mount with sshfs
 wifi
 ----------------------	
 http://ubuntuforums.org/showthread.php?t=2200496
+
+
+Changing DNS Settings in Linux
+----------------------	
+edit 
+```
+/etc/resolvconf/resolv.conf.d/base
+```
+add
+```
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+```
+Backup the current configuration file, by running:
+```
+sudo mv /etc/resolv.conf /etc/resolv.conf.backup
+```
+Link to the new resolvconf configuration file, by running:
+```
+sudo ln -s /run/resolvconf/resolv.conf /etc/resolv.conf
+sudo resolvconf -u
+```
+
+Restart network services by running:
+
+```
+sudo /etc/init.d/networking restart
+```
