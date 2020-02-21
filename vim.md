@@ -11,4 +11,19 @@ http://vimawesome.com/
 *copy past*
 :set past / nopaste
 
+##### swap to letters
+`xp`
+
+##### delete till x 
+` d t x`
+
+##### move line 1 line above
+` :m -2`
+
+##### open file for editing in new buffer 
+`:e pat/to/file`
+
+##### buffers navigation
+`:b 1`
+
 
