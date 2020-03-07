@@ -2,6 +2,9 @@
 title: tmux
 layout: default
 ---
+
+[Tmux Guide](https://tmuxguide.readthedocs.io/en/latest/index.html)
+
 start new:
 
     tmux

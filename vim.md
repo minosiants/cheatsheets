@@ -26,4 +26,5 @@ http://vimawesome.com/
 ##### buffers navigation
 `:b 1`
 
-
+##### find and replace string
+`:s/<search_string>/<replace_string>/g`
