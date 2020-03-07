@@ -5,6 +5,9 @@ layout: default
 
 [Tmux Guide](https://tmuxguide.readthedocs.io/en/latest/index.html)
 
+[tmux.conf](https://github.com/gpakosz/.tmux/blob/master/.tmux.conf)
+
+
 start new:
 
     tmux
