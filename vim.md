@@ -28,3 +28,8 @@ http://vimawesome.com/
 
 ##### find and replace string
 `:s/<search_string>/<replace_string>/g`
+
+##### save read-only files
+[article](https://catonmat.net/sudo-vim)
+
+`:w !sudo tee % >/dev/null`
