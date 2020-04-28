@@ -51,3 +51,11 @@ data BigFarmhouse = BigFarmhouse NumCow NumPig NumSheep deriving (Eq, Show)
 type BigFarmhouse' = Product NumCow (Product NumPig NumSheep)
 
 ```
+#### import modules
+
+```haslell
+import qualified Data.Bool as B
+
+import Control.Monad (forever, when)
+```
+[haskell-hedgehog](https://github.com/hedgehogqa/haskell-hedgehog) - property testing
