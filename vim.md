@@ -27,7 +27,12 @@ http://vimawesome.com/
 `:b 1`
 
 ##### find and replace string
-`:s/<search_string>/<replace_string>/g`
+`:s/search/replace/g` - once
+`:8,10 s/search/replace/g ` - range
+`:%s/search/replace/g` - entire file 
+
+#### clear search highlight
+`:noh`
 
 ##### save read-only files
 [article](https://catonmat.net/sudo-vim)
