@@ -5,6 +5,7 @@ layout: default
 ### Formaters
 * [`stylish-haskell`](https://github.com/jaspervdj/stylish-haskell) 
 * [`hindent`](https://github.com/chrisdone/hindent)
+* [`ormolu`](https://github.com/tweag/ormolu)
 
 ### General
 * [`Hoogle`](https://hoogle.haskell.org/) - Haskell API search engine
