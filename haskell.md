@@ -62,4 +62,9 @@ import Control.Monad (forever, when)
 ```haskell 
 splitBy2 = takeWhile (not . null) . unfoldr (Just . splitAt 2)
 ```
+### uncurry
+```haskell
+summed :: Num c => (c, c) -> c
+summed t = uncurry (+) t
+```
 
