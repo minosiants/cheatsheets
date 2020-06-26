@@ -58,4 +58,8 @@ import qualified Data.Bool as B
 
 import Control.Monad (forever, when)
 ```
-[haskell-hedgehog](https://github.com/hedgehogqa/haskell-hedgehog) - property testing
+#### split by 2
+```haskell 
+splitBy2 = takeWhile (not . null) . unfoldr (Just . splitAt 2)
+```
+

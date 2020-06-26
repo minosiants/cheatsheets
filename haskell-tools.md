@@ -2,6 +2,9 @@
 title: Haskell tools
 layout: default
 ---
+### Ide
+* [`Haskell language server`](https://github.com/haskell/haskell-language-server)
+
 ### Formaters
 * [`stylish-haskell`](https://github.com/jaspervdj/stylish-haskell) 
 * [`hindent`](https://github.com/chrisdone/hindent)
