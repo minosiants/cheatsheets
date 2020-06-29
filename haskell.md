@@ -72,4 +72,22 @@ summed t = uncurry (+) t
 -- testBit can be used from Data.Bits
 ((shiftR _n op) .&. 1) == 1
 ```
+#### LambdaCase extention
+```haskell
+{-# LANGUAGE LambdaCase #-}
+datum = \case
+  Empty -> error "datum of empty LinkedList"
+    Cons a _ -> a
+```    
+
+#### Strict [foldl'](https://hackage.haskell.org/package/base-4.14.0.0/docs/Data-List.html#v:foldl-39-)
+```haskell
+foldl' :: (b -> a -> b) -> b -> [a] -> b
+foldl' f z0 xs = foldr f' id xs z0
+      where f' x k z = k $! f z x
+```      
+*(seq)[https://wiki.haskell.org/Seq]*
+`seq :: a -> b -> b` 
+`it is magically strict in its first argument`
+
 
