@@ -86,8 +86,8 @@ foldl' :: (b -> a -> b) -> b -> [a] -> b
 foldl' f z0 xs = foldr f' id xs z0
       where f' x k z = k $! f z x
 ```      
-*(seq)[https://wiki.haskell.org/Seq]*
-`seq :: a -> b -> b` 
-`it is magically strict in its first argument`
+*[seq](https://wiki.haskell.org/Seq)*
+`seq :: a -> b -> b`  
+`it is magically strict in its first argument` 
 
 
