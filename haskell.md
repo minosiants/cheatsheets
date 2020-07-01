@@ -86,8 +86,26 @@ foldl' :: (b -> a -> b) -> b -> [a] -> b
 foldl' f z0 xs = foldr f' id xs z0
       where f' x k z = k $! f z x
 ```      
-*[seq](https://wiki.haskell.org/Seq)*
+*[seq](https://wiki.haskell.org/Seq)* 
 `seq :: a -> b -> b`  
 `it is magically strict in its first argument` 
+
+#### [Alternative](https://hackage.haskell.org/package/base-4.14.0.0/docs/Control-Applicative.html#g:2) <|>
+```haskell
+p123 :: Parser String
+p123 = string "123" <|> string "12" <|> string "1"
+```
+#### [QuasiQuotes](https://wiki.haskell.org/Quasiquotation)
+```haskell 
+{-# LANGUAGE QuasiQuotes #-}
+
+eitherOr = [r|
+123
+abc
+456
+def
+|]
+```
+
 
 

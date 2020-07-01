@@ -38,3 +38,18 @@ http://vimawesome.com/
 [article](https://catonmat.net/sudo-vim)
 
 `:w !sudo tee % >/dev/null`
+
+#### replace text in column mode
+- ` Ctrl-v` 
+- select column text
+- press `c`
+- type new text 
+- press `esc`
+
+#### open under cursor link in browser
+`gx` 
+
+#### open file under cursor
+`gf` (go to file) 
+
+
