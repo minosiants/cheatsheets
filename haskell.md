@@ -90,11 +90,14 @@ foldl' f z0 xs = foldr f' id xs z0
 `seq :: a -> b -> b`  
 `it is magically strict in its first argument` 
 
-#### [Alternative](https://hackage.haskell.org/package/base-4.14.0.0/docs/Control-Applicative.html#g:2) <|>
+#### [Alternative](https://hackage.haskell.org/package/base-4.14.0.0/docs/Control-Applicative.html#g:2)
+`<|>` `many` `some` 
 ```haskell
 p123 :: Parser String
 p123 = string "123" <|> string "12" <|> string "1"
 ```
+
+
 #### [QuasiQuotes](https://wiki.haskell.org/Quasiquotation)
 ```haskell 
 {-# LANGUAGE QuasiQuotes #-}

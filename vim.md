@@ -52,4 +52,8 @@ http://vimawesome.com/
 #### open file under cursor
 `gf` (go to file) 
 
+#### search word under cursor
+- `/`
+- `Ctrl + r`
+- `Ctrl + w`
 
