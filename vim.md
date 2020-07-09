@@ -56,4 +56,14 @@ http://vimawesome.com/
 - `/`
 - `Ctrl + r`
 - `Ctrl + w`
+or 
+`*` serch forward  
+`#` search backward   
+
+#### jump back and forward 
+`Ctrl + o` `Ctrl + i` 
+
+#### spwap words 
+`dawbP` [swapping](https://vim.fandom.com/wiki/Swapping_characters,_words_and_lines#Related_plugins)  
+
 

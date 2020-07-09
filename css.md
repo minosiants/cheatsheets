@@ -3,12 +3,14 @@ title: CSS
 layout: default
 ---
 
-[CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
-[CSS3 clickchart](http://css3clickchart.com/#box-sizing)
-[CSS values](http://cssvalues.com)
-[CSS3 test](http://css3test.com/)
-[Magic Of CSS](http://adamschwartz.co/magic-of-css/)
-[Topcoat Coding Guidelines](https://github.com/topcoat/topcoat/wiki/Coding-Guidelines)
+[CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)  
+[CSS3 clickchart](http://css3clickchart.com/#box-sizing)  
+[CSS values](http://cssvalues.com)  
+[CSS3 test](http://css3test.com/)  
+[Magic Of CSS](http://adamschwartz.co/magic-of-css/)  
+[Topcoat Coding Guidelines](https://github.com/topcoat/topcoat/wiki/Coding-Guidelines)  
+
+[Ten modern layouts in one line of CSS](https://1linelayouts.glitch.me/)   
 
 Selectors
 ---------

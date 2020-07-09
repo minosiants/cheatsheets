@@ -21,7 +21,7 @@ Issues :
 ```
 
 data GuessWhat = 
-   Chickenbutt deriving (Eq, Show)
+Chickenbutt deriving (Eq, Sho)
 
 data Id a = 
    MkId a deriving (Eq, Show)
@@ -109,6 +109,12 @@ abc
 def
 |]
 ```
-
-
-
+#### Convert word8 to word32
+```haskell
+conv :: [Word8] -> Word32
+conv = foldl (\acc b -> (acc `shiftL` 8) .|. (fromIntegral b)) 0
+```
+#### Map with list vals
+```haskell
+M.fromListWith (++) [(k, [v]) | ((k, v) <- r
+```
