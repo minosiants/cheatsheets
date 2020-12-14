@@ -67,3 +67,14 @@ Restart network services by running:
 ```
 sudo /etc/init.d/networking restart
 ```
+Version of Linux
+
+```
+uname -or
+```
+Tail files
+
+```
+tail -f | less +F
+```
+

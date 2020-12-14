@@ -7,7 +7,7 @@ layout: default
 - [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)
 - [IBM Plex](https://github.com/IBM/plex)
 - [Fira](https://github.com/tonsky/FiraCode)
-
+- [Lato](https://github.com/latofonts/lato-source)  
 
 
 ### Resources
