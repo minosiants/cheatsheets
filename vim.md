@@ -66,4 +66,9 @@ or
 #### spwap words 
 `dawbP` [swapping](https://vim.fandom.com/wiki/Swapping_characters,_words_and_lines#Related_plugins)  
 
+### run shell command
+`:! {shell command`
 
+### toggle past
+  `set past` 
+  `set nopaste` 
