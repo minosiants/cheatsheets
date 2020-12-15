@@ -15,4 +15,12 @@ https://github.com/visionmedia/git-extras
   `.gitegnore`  
         `!images/*.png` will include png from images folder  
   `git diff <commit1> <commit2>` - shows different between commits  
+  `cat .git/refs/heads/<branch name >` - sha of the commit it points to  
+  `git branch my-branch master` - creats my-branch  
+  three way `merge` create `new commit` at the merge point    
+  `fast forvad merge` does not create a merge commit  
+  `git --all --graph --oneline` shows graph of branches commits
+  `checkout -b bugfix v1.2.7` checkout branch based on tag  
   
+
+   
