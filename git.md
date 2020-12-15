@@ -1,10 +1,9 @@
 
-https://github.com/visionmedia/git-extras
+https://github.com/visionmedia/git-extras  
+https://gitignore.io  
+[git-sizer](https://github.com/github/git-sizer)  
 
-  https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
-  https://gitignore.io
-
-## Git
+## Git commands
 
   `git init` - makes folder to git repo  
   `remote` - connect local repo with remote   
@@ -28,7 +27,20 @@ https://github.com/visionmedia/git-extras
   `git reset --soft <ref>` - moves `HEAD` to `<ref>`  
   `git reset --mixed <path>` - defaut `reset` behavior. Removes files from the `stage` and moves `HEAD`  
   `git reset --hard <ref> ` - Updates `HEAD` and stage with the content of the target  `ref`  
+  `git diff --name-only --cached` - shows staged files
 
+
+## Git comfiguration
+  types: `system` , `user`, `repository local`  
+  `git config --list` - list all config content  
+  `git config --show-origin user.email` - shows config value  
+  `.gitattributes` - config type of files
+
+## Git others
+  [git-sizer](https://github.com/github/git-sizer)  
+
+
+  
 
 
 
