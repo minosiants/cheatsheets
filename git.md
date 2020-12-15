@@ -1,6 +1,6 @@
 
-https://github.com/visionmedia/git-extras  
-https://gitignore.io  
+[git-extras](https://github.com/visionmedia/git-extras)  
+[gitignore](https://gitignore.io)  
 [git-sizer](https://github.com/github/git-sizer)  
 
 ## Git commands
