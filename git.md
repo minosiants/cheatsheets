@@ -2,7 +2,7 @@
 [git-extras](https://github.com/visionmedia/git-extras)  
 [gitignore](https://gitignore.io)  
 [git-sizer](https://github.com/github/git-sizer)  
-
+[git cheat-sheet](https://gist.github.com/davfre/8313299)  
 ## Git commands
 
   `git init` - makes folder to git repo  
