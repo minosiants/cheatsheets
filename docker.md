@@ -16,7 +16,8 @@ layout: default
 `docker container rm --force $(docker container ls --all --quiet)` - remove containers  
 `docker container inspect <id>` - container details
 `docker exec -it <id> bash` - connect to the running container  
-`docker container cp index.html 86b:/usr/local/apache2/htdocs/index.html` - replace file with new `index.html`  [cp command](https://docs.docker.com/engine/reference/commandline/container_cp/)
+`docker container cp index.html 86b:/usr/local/apache2/htdocs/index.html` - replace file with new `index.html`  
+[cp command](https://docs.docker.com/engine/reference/commandline/container_cp/)  
 #### [example of the running process in the backgrount and attached ports](https://docs.docker.com/engine/reference/commandline/container_run/)
 `docker container run --detach --publish 8088:80 diamol/ch02-hello-diamol-web`  
 
