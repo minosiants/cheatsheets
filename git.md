@@ -17,6 +17,8 @@
   `git branch my-branch master` - creats my-branch  
   `git branch` - shows local branches  
   `git branch --remote` - shows remote branches  
+  `git branch -D <localBranchName>` - delete a local branch
+  `git push origin --delete <remoteBranchName>` 
   three way `merge` create `new commit` at the merge point    
   `fast forvad merge` does not create a merge commit  
   `git --all --graph --oneline` shows graph of branches commits    

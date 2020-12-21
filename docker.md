@@ -3,6 +3,9 @@ title: docker
 layout: default
 ---
 
+[`Docker Engine`](https://docs.docker.com/engine/) is managment component of the Docker. It makes everything available throug REST Api  
+`Universal Control Plane (UCP)` is now [Mirantis Kubernetes Engine](https://docs.mirantis.com/docker-enterprise/v3.0/dockeree-products/mke.html) - enterprise-grade cluster management solution  
+
 `docker version` - display docker version  
 
 `docker image rm -f $(docker image ls -f reference='diamol/*' -q)1` - remove images  
@@ -21,9 +24,7 @@ layout: default
 #### [example of the running process in the backgrount and attached ports](https://docs.docker.com/engine/reference/commandline/container_run/)
 `docker container run --detach --publish 8088:80 diamol/ch02-hello-diamol-web`  
 
-[`Docker Engine`](https://docs.docker.com/engine/) is managment component of the Docker. It makes everything available throug REST Api  
 
-`Universal Control Plane (UCP)` is now [Mirantis Kubernetes Engine](https://docs.mirantis.com/docker-enterprise/v3.0/dockeree-products/mke.html) - enterprise-grade cluster management solution  
 
 
 
