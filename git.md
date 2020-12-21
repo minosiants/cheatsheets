@@ -17,12 +17,12 @@
   `git branch my-branch master` - creats my-branch  
   `git branch` - shows local branches  
   `git branch --remote` - shows remote branches  
-  `git branch -D <localBranchName>` - delete a local branch
-  `git push origin --delete <remoteBranchName>` 
+  `git branch -D <localBranchName>` - delete a local branch  
+  `git push origin --delete <remoteBranchName>` - delete remote brach   
   three way `merge` create `new commit` at the merge point    
-  `fast forvad merge` does not create a merge commit  
+  `git fast forvad merge` does not create a merge commit  
   `git --all --graph --oneline` shows graph of branches commits    
-  `checkout -b bugfix v1.2.7` checkout branch based on tag    
+  `git checkout -b bugfix v1.2.7` checkout branch based on tag    
   `git remote show origin` - remote show origin to see some details about remote  
   `git revert <ref>` - creates new commit removing `ref` commit   
   `git reset` - has three modes `soft` `mixed` `hard`    
