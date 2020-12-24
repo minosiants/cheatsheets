@@ -38,6 +38,8 @@
   `git config --show-origin user.email` - shows config value  
   `.gitattributes` - config type of files
 
+## [Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)
+
 ## Git others
   [git-sizer](https://github.com/github/git-sizer)  
 
