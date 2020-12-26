@@ -30,7 +30,7 @@
   `git reset --mixed <path>` - defaut `reset` behavior. Removes files from the `stage` and moves `HEAD`  
   `git reset --hard <ref> ` - Updates `HEAD` and stage with the content of the target  `ref`  
   `git diff --name-only --cached` - shows staged files
-
+  `gir rm file.txt` - removes file
 
 ## Git comfiguration
   types: `system` , `user`, `repository local`  
@@ -38,7 +38,7 @@
   `git config --show-origin user.email` - shows config value  
   `.gitattributes` - config type of files
 
-## [Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)
+## [Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)  
 
 ## Git others
   [git-sizer](https://github.com/github/git-sizer)  
