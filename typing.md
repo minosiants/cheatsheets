@@ -18,5 +18,6 @@ layout: default
 
 #### Advise
 Type by word not by leter  
-
+Acuracy first then speed  
+Read ahead  
 

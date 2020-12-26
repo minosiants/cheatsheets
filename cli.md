@@ -13,3 +13,6 @@ layout: default
 `file | xclip -sel c` - Linux past from clipboard  
 
 
+
+[`sudo disktutil eraseDisk exFat Untitled /dev/disk2`](https://itgirl.tech/2019/08/30/format-usb-drive-mac-terminal/) - format disk on Mac
+
