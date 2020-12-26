@@ -30,7 +30,7 @@
   `git reset --mixed <path>` - defaut `reset` behavior. Removes files from the `stage` and moves `HEAD`  
   `git reset --hard <ref> ` - Updates `HEAD` and stage with the content of the target  `ref`  
   `git diff --name-only --cached` - shows staged files
-  `gir rm file.txt` - removes file
+   [`gir rm file.txt`](https://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-a-git-repository) - removes file
 
 ## Git comfiguration
   types: `system` , `user`, `repository local`  
