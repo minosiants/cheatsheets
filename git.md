@@ -39,7 +39,11 @@
   `.gitattributes` - config type of files
 
 ## [Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)  
-
+  `git config --global commit.gpgsign true`   
+## [Enabling `gpg-agent`](https://shameerarathnayaka.wordpress.com/2016/07/13/how-to-enable-gpg-agent-to-cache-passphrase-on-mac-os-x/)
+  [gpg-agent](https://linux.die.net/man/1/gpg-agent)  
+  * `brew install gpg-agent`  
+  *  
 ## Git others
   [git-sizer](https://github.com/github/git-sizer)  
 
