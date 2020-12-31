@@ -8,8 +8,8 @@ http://vimawesome.com/
 
 :%!python -m json.tool
 
-*copy past*
-:set past / nopaste
+*copy paste*
+:set paste / nopaste
 
 ##### swap to letters
 `xp`
@@ -72,3 +72,8 @@ or
 ### toggle past
   `set past` 
   `set nopaste` 
+
+### [resize window](https://vim.fandom.com/wiki/Resize_splits_more_quickly)
+  `:res +5`  
+  `:res -5`  
+  
