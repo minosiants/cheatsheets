@@ -42,8 +42,16 @@
   `git config --global commit.gpgsign true`   
 ## [Enabling `gpg-agent`](https://shameerarathnayaka.wordpress.com/2016/07/13/how-to-enable-gpg-agent-to-cache-passphrase-on-mac-os-x/)
   [gpg-agent](https://linux.die.net/man/1/gpg-agent)  
-  * `brew install gpg-agent`  
-  *  
+  * `brew install gnupg`  
+  * add [`gpg-agent`](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gpg-agent) to `.zshrc`
+  * create `~/.gnupg/.gpg-agent.conf` and add   
+  ```
+  default-cache-ttl 600
+  max-cache-ttl 7200
+  pinentry-program /usr/local/bin/pinentry
+  allow-preset-passphrase
+  ```
+
 ## Git others
   [git-sizer](https://github.com/github/git-sizer)  
 

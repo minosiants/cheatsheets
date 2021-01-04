@@ -25,6 +25,8 @@ http://vimawesome.com/
 
 ##### buffers navigation
 `:b 1`
+#### close a buffer 
+`:bd`  or `:bw`
 
 ##### find and replace string
 `:s/search/replace/g` - once
@@ -76,4 +78,7 @@ or
 ### [resize window](https://vim.fandom.com/wiki/Resize_splits_more_quickly)
   `:res +5`  
   `:res -5`  
+
+### [open a new winwow](https://dev.to/iggredible/using-buffers-windows-and-tabs-efficiently-in-vim-56jc)
+ `:split /path/to/file`  
   
