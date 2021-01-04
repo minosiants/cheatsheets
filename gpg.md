@@ -9,7 +9,7 @@ layout: default
 [sbt-gpg plugin](https://github.com/sbt/sbt-pgp)  
 [Quick'n easy gpg cheatsheet](http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/)  
 `gpg --version` - shows verion    
-`gpg --gen-key` - generates a new key
+`gpg --gen-key` - generates a new key. For `github` github email should be used
 `gpg --gen-key > filename.gpg` - generates a new key  
 `gpg --keyserver keyserver.ubuntu.com --send-keys <key>` - sends fingerprint to the server  
 `gpg --output public.pgp --armor --export username@email` - export public key to the file  
