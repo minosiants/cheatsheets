@@ -44,21 +44,12 @@
   [gpg-agent](https://linux.die.net/man/1/gpg-agent)  
   * `brew install gnupg`  
   * add [`gpg-agent`](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gpg-agent) to `.zshrc`
-  * create `~/.gnupg/.gpg-agent.conf` and add   
+  * create `~/.gnupg/gpg-agent.conf` and add   
   ```
   default-cache-ttl 600
   max-cache-ttl 7200
   pinentry-program /usr/local/bin/pinentry
   allow-preset-passphrase
   ```
-
-## Git others
-  [git-sizer](https://github.com/github/git-sizer)  
-
-
-  
-
-
-
-
-   
+## Make sbt release signed   
+  [add `releasePublishArtifactsAction`](https://github.com/sbt/sbt-release#publishing-signed-releases)    
