@@ -15,6 +15,7 @@ layout: default
 [nitrytype](https://www.nitrotype.com/)  
 [monkeytype](https://monkeytype.com)  
 [typing](https://www.typing.com/)  
+[type racer](https://play.typeracer.com/)  
 
 #### Advise
 Type by word not by leter  
