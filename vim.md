@@ -69,7 +69,7 @@ or
 `dawbP` [swapping](https://vim.fandom.com/wiki/Swapping_characters,_words_and_lines#Related_plugins)  
 
 ### run shell command
-`:! {shell command`
+`:! {shell command}`
 
 ### toggle past
   `set past` 
@@ -81,4 +81,19 @@ or
 
 ### [open a new winwow](https://dev.to/iggredible/using-buffers-windows-and-tabs-efficiently-in-vim-56jc)
  `:split /path/to/file`  
-  
+
+### registers
+ `:reg` - list content of all registers  
+ `"add` - delete line into register `a`  
+ [`"pq`](https://vim.fandom.com/wiki/Pasting_registers) - past register `q`  
+
+### copy past from one buffer to another or anything
+  `"+2dd` - cut 2 lines  
+  `"+2yy` - copy 2 lines 
+  `"+p` - past line on the line after the cursor  
+  `"+P` - past line on the line before the cursor
+
+### [add empty line](https://vim.fandom.com/wiki/Quickly_adding_and_deleting_empty_lines)
+  `1o<esc>` - add line after the cursor  
+  `1O<esc>` - add line before the cursor  
+
