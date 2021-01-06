@@ -16,9 +16,14 @@ layout: default
 [monkeytype](https://monkeytype.com)  
 [typing](https://www.typing.com/)  
 [type racer](https://play.typeracer.com/)  
+[typings](https://typings.gg/)
+[keyhero](https://www.keyhero.com/)  
+[ztype](https://zty.pe/)  
 
 #### Advise
-Type by word not by leter  
-Acuracy first then speed  
-Read ahead  
+ * Type by word not by leter  
+ * Acuracy first then speed  
+ * Read ahead  
+ * Type 20 lessons without stopping then stop for a cuple of minutes and start again  
+ * Use differnt keybords  
 
