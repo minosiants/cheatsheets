@@ -8,6 +8,8 @@ layout: default
 
 `docker version` - display docker version  
 
+### Docker image commands  
+`docker image pull <image name>` - pulls the container image  
 `docker image rm -f $(docker image ls -f reference='diamol/*' -q)1` - remove images  
 
 ### [Docker container commands](https://docs.docker.com/engine/reference/commandline/container/)  
@@ -24,8 +26,12 @@ layout: default
 #### [example of the running process in the backgrount and attached ports](https://docs.docker.com/engine/reference/commandline/container_run/)
 `docker container run --detach --publish 8088:80 diamol/ch02-hello-diamol-web`  
 
-
-### [Dockerfile]
+### [Dockerfile](https://docs.docker.com/engine/reference/builder/)
+ `IMAGE` - image to start from `FROM diamol/node`  
+ `ENV` - sets value for enviroment variable. `[key]=[value]`  
+ `WORKDIR` - creates directory in container image file system.  
+ `COPY` - copies files or dirictories into container image. `[source path] [target path]`  
+ `CMD` - command to run when docker starts the container.  
 
 
 
