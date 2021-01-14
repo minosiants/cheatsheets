@@ -16,3 +16,6 @@ layout: default
 
 [`sudo disktutil eraseDisk exFat Untitled /dev/disk2`](https://itgirl.tech/2019/08/30/format-usb-drive-mac-terminal/) - format disk on Mac
 
+`cat *.txt > out.txt` - combine all files into one   
+`ffmpeg -loop 1 -i image.png -i fullbook.mp3 -c:a copy -c:v libx264 -shortest fullbook.mp4` - convert audio to video    
+

@@ -3,21 +3,12 @@ title: sbt
 layout: default
 ---
 
-http://www.scala-sbt.org/0.13/docs/Community-Plugins.html
+## Commands
 
-tasks - list all tasks
-
-
-Plugins
-
-eclipse - https://github.com/typesafehub/sbteclipse/wiki/Using-sbteclipse
-
-EclipseKeys.createSrc := EclipseCreateSrc.Default + EclipseCreateSrc.Resource
-
-dependency-graph - https://github.com/jrudolph/sbt-dependency-graph
-commands : dependency-graph ,  what-depends-on <organization> <module> <revision>
+  `sbt new scala/scala-seed.g8` - creates a new project [more](https://www.scala-sbt.org/1.x/docs/sbt-new-and-Templates.html)  
 
 
+## build.sbt
 
-
+  `javacOptions ++= Seq("-source", "1.11", "-target", "1.8")` - setting up jdk verion  
 
