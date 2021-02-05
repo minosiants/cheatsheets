@@ -19,3 +19,10 @@ layout: default
 `cat *.txt > out.txt` - combine all files into one   
 `ffmpeg -loop 1 -i image.png -i fullbook.mp3 -c:a copy -c:v libx264 -shortest fullbook.mp4` - convert audio to video    
 
+
+
+
+
+## Tools 
+[`bat`](https://github.com/sharkdp/bat) - A cat(1) clone with syntax highlighting and Git integration.    
+

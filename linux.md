@@ -78,3 +78,18 @@ Tail files
 tail -f | less +F
 ```
 
+
+
+
+
+
+
+
+
+
+### Applications and tools
+ - [foliate](https://johnfactotum.github.io/foliate/) - epub reader  
+
+
+
+

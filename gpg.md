@@ -16,4 +16,4 @@ layout: default
 `gpg --output private.pgp --armor --export-secret-key username@email` - export private key to the file  
 `gpg --delete-secret-key "User Name"` - delete secret key  
 `gpg --delete-key "User Name"` - delete private key  
-
+  
