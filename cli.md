@@ -19,4 +19,42 @@ layout: default
 `cat *.txt > out.txt` - combine all files into one   
 `ffmpeg -loop 1 -i image.png -i fullbook.mp3 -c:a copy -c:v libx264 -shortest fullbook.mp4` - convert audio to video    
 
+## Shell history
+
+  `sudo !!` - run the last command as root  
+  `id sam` - user info  
+  `!<string>` - repead the last command that started with a given string  
+
+  ```
+    $ whoami 
+    $ uptime
+    $ !u
+    $ sudo !w
+  ```
+  `!^` - resue the second word (first argument) from the previous command  
+
+  ```
+  $ host www.google.com 8.8.8.8
+  $ ping -c1 !^
+  ping -c1 www.google.com 
+  ```
+  `!$` - reuse the last word (last argument) from the previous command  
+  ```
+    $ unzip tpsreport.zip
+    $ rm !$
+  ```
+  `!!:N` - reuse the Nth word from a privous command  
+  
+  `^<string1>^<string2>^` - repeat the previous comman while substituting a string  
+  ```
+   $ grpe jason /etc/passwd 
+   $ ^pe^ep
+   grep jason /etc/passwd 
+  ```
+  `!$:N` - reference a word of the current command and reuse it  
+  ```
+   mv Working-with-Files.pdf Chapter-18-!#:1
+  ```
+
+
 
