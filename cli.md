@@ -51,10 +51,23 @@ layout: default
    $ ^pe^ep
    grep jason /etc/passwd 
   ```
-  `!$:N` - reference a word of the current command and reuse it  
+  `!#:N` - reference a word of the current command and reuse it  
   ```
-   mv Working-with-Files.pdf Chapter-18-!#:1
+   $ mv Working-with-Files.pdf Chapter-18-!#:1
   ```
+  ` script ` - save a copy of your command line session  
 
+  `$ history | awk '{print $2}' | sort | uniq -c | sort -rn | head` - find which command you use most often  
+   `history -c` - clear shell history  
+   
+## Text Procession an Manipulation
+
+  `grep -E -v "^#|^$" file`  - strip out comments and blank lines  
+  
+  `column -t` - display output in a table
+  ```
+   $ alias ct='column -t'
+   $ command | ct
+  ```
 
 

@@ -29,9 +29,9 @@ http://vimawesome.com/
 `:bd`  or `:bw`
 
 ##### find and replace string
-`:s/search/replace/g` - once
-`:8,10 s/search/replace/g ` - range
-`:%s/search/replace/g` - entire file 
+`:s/search/replace/g` - once  
+`:8,10 s/search/replace/g ` - range  
+`:%s/search/replace/g` - entire file   
 
 #### clear search highlight
 `:noh`
@@ -47,6 +47,13 @@ http://vimawesome.com/
 - press `c`
 - type new text 
 - press `esc`
+
+#### add block commetn [from here](https://stackoverflow.com/questions/1676632/whats-a-quick-way-to-comment-uncomment-lines-in-vim)
+- ` Ctrl-v` 
+- select column  
+- press  `Shift I`  
+- add comment  
+- press `esc`  
 
 #### open under cursor link in browser
 `gx` 

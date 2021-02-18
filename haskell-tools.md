@@ -2,6 +2,9 @@
 title: Haskell tools
 layout: default
 ---
+###  ghc versions manager (like rustup)
+* [ghcup](https://gitlab.haskell.org/haskell/ghcup-hs)  
+
 ### Ide
 * [`Haskell language server`](https://github.com/haskell/haskell-language-server)
 
