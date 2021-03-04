@@ -89,6 +89,9 @@ or
 ### [open a new winwow](https://dev.to/iggredible/using-buffers-windows-and-tabs-efficiently-in-vim-56jc)
  `:split /path/to/file`  
 
+### [move cursor to another window](https://cs.oberlin.edu/~kuperman/help/vim/windows.html)
+ `ctrl-w ctrl-w`
+
 ### registers
  `:reg` - list content of all registers  
  `"add` - delete line into register `a`  
