@@ -4,6 +4,8 @@ title: command line
 layout: default
 ---
 [the art of command line](https://github.com/jlevy/the-art-of-command-line)  
+[awesome-cheatsheets Bash](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh)  
+
 ### find top larges directories  
 [du -hs * | sort -rh | head -5](https://www.tecmint.com/find-top-large-directories-and-files-sizes-in-linux/)  
 ### clipboard

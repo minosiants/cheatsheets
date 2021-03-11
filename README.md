@@ -1,7 +1,7 @@
-cheatsheets
-===========
+# Cheatsheets
 
 My cheatsheets. Inspired by https://github.com/rstacruz/cheatsheets
 
-
-http://www.thoughtworks.com/insights/blog/scala-symposium-big-data-pipeline-powered-scala
+### others 
+  
+  - [awesome cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)   
