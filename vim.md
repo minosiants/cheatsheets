@@ -11,37 +11,32 @@ http://vimawesome.com/
 *copy paste*
 :set paste / nopaste
 
-##### swap to letters
-`xp`
+`xp`        - swap to letters  
+`d t x`     - delete till x   
+`:m -2`     - move line 1 line above  
+`:e path/to/file` - open file for editing in new buffer   
+`:b 1`            - buffers navigation  
+`:bd` or `:bw`    - close a buffer   
+`:noh`                  - clear search highlight  
+`gx`                    - open under cursor link in browser  
+`gf`                    - open file under cursor (go to file)  
+`*`                     - serch forward  
+`#`                     - search backward   
+`Ctrl + o` `Ctrl + i`   - jump back and forward 
 
-##### delete till x 
-` d t x`
-
-##### move line 1 line above
-` :m -2`
-
-##### open file for editing in new buffer 
-`:e pat/to/file`
-
-##### buffers navigation
-`:b 1`
-#### close a buffer 
-`:bd`  or `:bw`
+`/`                    - search word under cursor
+`Ctrl + r`
+`Ctrl + w`
 
 ##### find and replace string
 `:s/search/replace/g` - once  
 `:8,10 s/search/replace/g ` - range  
 `:%s/search/replace/g` - entire file   
 
-#### clear search highlight
-`:noh`
+##### save read-only files [article](https://catonmat.net/sudo-vim)  
+`:w !sudo tee % >/dev/null`  
 
-##### save read-only files
-[article](https://catonmat.net/sudo-vim)
-
-`:w !sudo tee % >/dev/null`
-
-#### replace text in column mode
+#### replace text in column mode 
 - ` Ctrl-v` 
 - select column text
 - press `c`
@@ -54,23 +49,6 @@ http://vimawesome.com/
 - press  `Shift I`  
 - add comment  
 - press `esc`  
-
-#### open under cursor link in browser
-`gx` 
-
-#### open file under cursor
-`gf` (go to file) 
-
-#### search word under cursor
-- `/`
-- `Ctrl + r`
-- `Ctrl + w`
-or 
-`*` serch forward  
-`#` search backward   
-
-#### jump back and forward 
-`Ctrl + o` `Ctrl + i` 
 
 #### spwap words 
 `dawbP` [swapping](https://vim.fandom.com/wiki/Swapping_characters,_words_and_lines#Related_plugins)  
