@@ -28,6 +28,14 @@ http://vimawesome.com/
 `Ctrl + r`
 `Ctrl + w`
 
+`dawbP`         -  swap words [swapping](https://vim.fandom.com/wiki/Swapping_characters,_words_and_lines#Related_plugins)  
+`:! {shell command}`      - run shell command  
+`set past` `set nopaste`  - toggle past   
+`:res +5`  `:res -5`      -  [resize window](https://vim.fandom.com/wiki/Resize_splits_more_quickly)   
+`:split /path/to/file`    - [open a new winwow](https://dev.to/iggredible/using-buffers-windows-and-tabs-efficiently-in-vim-56jc)  
+`ctrl-w ctrl-w`           - [move cursor to another window](https://cs.oberlin.edu/~kuperman/help/vim/windows.html)  
+`:40vs +Ex`               - open explorer in a vertical split    
+
 ##### find and replace string
 `:s/search/replace/g` - once  
 `:8,10 s/search/replace/g ` - range  
@@ -35,6 +43,7 @@ http://vimawesome.com/
 
 ##### save read-only files [article](https://catonmat.net/sudo-vim)  
 `:w !sudo tee % >/dev/null`  
+
 
 #### replace text in column mode 
 - ` Ctrl-v` 
@@ -49,26 +58,6 @@ http://vimawesome.com/
 - press  `Shift I`  
 - add comment  
 - press `esc`  
-
-#### spwap words 
-`dawbP` [swapping](https://vim.fandom.com/wiki/Swapping_characters,_words_and_lines#Related_plugins)  
-
-### run shell command
-`:! {shell command}`
-
-### toggle past
-  `set past` 
-  `set nopaste` 
-
-### [resize window](https://vim.fandom.com/wiki/Resize_splits_more_quickly)
-  `:res +5`  
-  `:res -5`  
-
-### [open a new winwow](https://dev.to/iggredible/using-buffers-windows-and-tabs-efficiently-in-vim-56jc)
- `:split /path/to/file`  
-
-### [move cursor to another window](https://cs.oberlin.edu/~kuperman/help/vim/windows.html)
- `ctrl-w ctrl-w`
 
 ### registers
  `:reg` - list content of all registers  
