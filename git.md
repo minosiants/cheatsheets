@@ -1,4 +1,5 @@
 
+[awesome cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/tools/git.sh)  
 [git-extras](https://github.com/visionmedia/git-extras)  
 [gitignore](https://gitignore.io)  
 [git-sizer](https://github.com/github/git-sizer)  

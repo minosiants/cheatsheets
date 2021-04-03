@@ -2,14 +2,9 @@
 title: Vim
 layout: default
 ---
-http://vimawesome.com/
+http://vimawesome.com/  
+[awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/tools/vim.txt)  
 
-*Pretty printing JSON in Vim*
-
-:%!python -m json.tool
-
-*copy paste*
-:set paste / nopaste
 
 `xp`        - swap to letters  
 `d t x`     - delete till x   
