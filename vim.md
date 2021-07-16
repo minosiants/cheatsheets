@@ -4,8 +4,10 @@ layout: default
 ---
 http://vimawesome.com/  
 [awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/tools/vim.txt)  
+[vim find replace](https://linuxize.com/post/vim-find-replace/)
+[copy and paste](https://linuxize.com/post/how-to-copy-cut-paste-in-vim/)  
 
-
+`y$`        - copy from cursor till end of the line  
 `xp`        - swap to letters  
 `d t x`     - delete till x   
 `:m -2`     - move line 1 line above  
@@ -18,7 +20,7 @@ http://vimawesome.com/
 `*`                     - serch forward  
 `#`                     - search backward   
 `Ctrl + o` `Ctrl + i`   - jump back and forward 
-
+`dat`                   - [delete the whole tag](https://stackoverflow.com/questions/23698555/cut-or-yank-an-entire-tag-in-vim)   
 `/`                    - search word under cursor
 `Ctrl + r`
 `Ctrl + w`
