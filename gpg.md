@@ -18,6 +18,6 @@ layout: default
 `gpg --delete-key "User Name"` - delete private key  
 
 
-## [add gpg to github](https://git.io/J0jqR)
-`gpg --list-secret-keys --keyid-format=long`  - list keys 
-`git config --global user.signingkey <3AA5C34371567BD2>` - set github key 
+### [add gpg to github](https://git.io/J0jqR)  
+`gpg --list-secret-keys --keyid-format=long`  - list keys  
+`git config --global user.signingkey <3AA5C34371567BD2>` - set github key   
