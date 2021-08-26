@@ -118,9 +118,25 @@ conv = foldl (\acc b -> (acc `shiftL` 8) .|. (fromIntegral b)) 0
 ```haskell
 M.fromListWith (++) [(k, [v]) | ((k, v) <- r
 ```
-#### [View pattern][https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/exts/view_patterns.html#]
+#### Records
+```data ClientR = 
+      GovOrgR { clientRName :: String }  
+      | CompanyR { clientRName :: String, companyId :: Integer, person :: PersonR, duty :: String}
+      | IndividualR { person :: PersonR } 
+      deriving Show
+
+```
+#### Extensions
+
+ - (View pattern)[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/exts/view_patterns.html#]
 ```
 size (view -> Unit) = 1
 size (view -> Arrow t1 t2) = size t1 + size t2
 ```
+ - (Record puns)[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/exts/record_puns.html]  
+ ```f (C {a}) = a
+ ```
+ - (Record wildcards)[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/exts/record_wildcards.html]
+ `f (C {a = 1, ..}) = b + c + d`  
+ 
 
