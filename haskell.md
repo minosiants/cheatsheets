@@ -118,3 +118,9 @@ conv = foldl (\acc b -> (acc `shiftL` 8) .|. (fromIntegral b)) 0
 ```haskell
 M.fromListWith (++) [(k, [v]) | ((k, v) <- r
 ```
+#### [View pattern][https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/exts/view_patterns.html#]
+```
+size (view -> Unit) = 1
+size (view -> Arrow t1 t2) = size t1 + size t2
+```
+

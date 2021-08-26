@@ -22,7 +22,9 @@ http://vimawesome.com/
 `Ctrl + o` `Ctrl + i`   - jump back and forward 
 `dat`                   - [delete the whole tag](https://stackoverflow.com/questions/23698555/cut-or-yank-an-entire-tag-in-vim)   
 `/`                    - search word under cursor
-`Ctrl + r`
+`u`         - undo
+`U`         - undo all changes on the line
+`Ctrl + r`  - redo 
 `Ctrl + w`
 
 `dawbP`         -  swap words [swapping](https://vim.fandom.com/wiki/Swapping_characters,_words_and_lines#Related_plugins)  
