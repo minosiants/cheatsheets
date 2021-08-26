@@ -133,7 +133,7 @@ M.fromListWith (++) [(k, [v]) | ((k, v) <- r
 size (view -> Unit) = 1
 size (view -> Arrow t1 t2) = size t1 + size t2
 ```
-[Record puns][https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/exts/record_puns.html)   
+[Record puns](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/exts/record_puns.html)   
  ``` f (C {a}) = a  
  ```
 [Record wildcards](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/exts/record_wildcards.html)   
