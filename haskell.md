@@ -98,17 +98,6 @@ p123 = string "123" <|> string "12" <|> string "1"
 ```
 
 
-#### [QuasiQuotes](https://wiki.haskell.org/Quasiquotation)
-```haskell 
-{-# LANGUAGE QuasiQuotes #-}
-
-eitherOr = [r|
-123
-abc
-456
-def
-|]
-```
 #### Convert word8 to word32
 ```haskell
 conv :: [Word8] -> Word32
@@ -126,7 +115,7 @@ M.fromListWith (++) [(k, [v]) | ((k, v) <- r
       deriving Show
 
 ```
-#### Extensions
+### Extensions
 
 [View pattern](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/exts/view_patterns.html)
 ```
@@ -134,10 +123,28 @@ size (view -> Unit) = 1
 size (view -> Arrow t1 t2) = size t1 + size t2
 ```
 [Record puns](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/exts/record_puns.html)   
- ``` f (C {a}) = a  
- ```
+`f (C {a}) = a`
+
+
 [Record wildcards](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/exts/record_wildcards.html)   
 
  `f (C {a = 1, ..}) = b + c + d`  
  
+[QuasiQuotes](https://wiki.haskell.org/Quasiquotation)
+``` 
+eitherOr = [r|
+123
+abc
+456
+def
+|]
+```
+[Lamda case](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/exts/lambda_case.html?highlight=lambdacase)  
+```
+\case
+  p1 -> e1
+  ...
+  pN -> eN
+```
+
 
