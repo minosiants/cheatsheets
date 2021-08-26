@@ -16,4 +16,8 @@ layout: default
 `gpg --output private.pgp --armor --export-secret-key username@email` - export private key to the file  
 `gpg --delete-secret-key "User Name"` - delete secret key  
 `gpg --delete-key "User Name"` - delete private key  
-  
+
+
+### [add gpg to github](https://git.io/J0jqR)  
+`gpg --list-secret-keys --keyid-format=long`  - list keys  
+`git config --global user.signingkey <3AA5C34371567BD2>` - set github key   
