@@ -26,6 +26,7 @@ http://vimawesome.com/
 `U`         - undo all changes on the line
 `Ctrl + r`  - redo 
 `Ctrl + w`
+`Ctrl + g`             - display files name 
 
 `dawbP`         -  swap words [swapping](https://vim.fandom.com/wiki/Swapping_characters,_words_and_lines#Related_plugins)  
 `:! {shell command}`      - run shell command  

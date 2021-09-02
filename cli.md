@@ -72,4 +72,17 @@ layout: default
    $ command | ct
   ```
 
+  [copy output into clipboard](https://bit.ly/3sEb8ph)
+
+  `cat file | xclip` - copy
+  `xclip -o` - past 
+
+  (handy to have `aliases`)
+  ```
+  alias "c=xclip"
+  alias "v=xclip -o"
+
+  ```
+
+
 
