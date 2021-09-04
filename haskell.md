@@ -72,13 +72,6 @@ summed t = uncurry (+) t
 -- testBit can be used from Data.Bits
 ((shiftR _n op) .&. 1) == 1
 ```
-#### LambdaCase extention
-```haskell
-{-# LANGUAGE LambdaCase #-}
-datum = \case
-  Empty -> error "datum of empty LinkedList"
-    Cons a _ -> a
-```    
 
 #### Strict [foldl'](https://hackage.haskell.org/package/base-4.14.0.0/docs/Data-List.html#v:foldl-39-)
 ```haskell
@@ -107,6 +100,17 @@ conv = foldl (\acc b -> (acc `shiftL` 8) .|. (fromIntegral b)) 0
 ```haskell
 M.fromListWith (++) [(k, [v]) | ((k, v) <- r
 ```
+
+#### Multiline block
+```
+    Prelude> :{ 
+    Prelude| 1 + 
+    Prelude| 5 
+    Prelude| :} 
+    6 
+
+```
+
 #### Records
 ```data ClientR = 
       GovOrgR { clientRName :: String }  
@@ -127,7 +131,6 @@ size (view -> Arrow t1 t2) = size t1 + size t2
 
 
 [Record wildcards](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/exts/record_wildcards.html)   
-
  `f (C {a = 1, ..}) = b + c + d`  
  
 [QuasiQuotes](https://wiki.haskell.org/Quasiquotation)
@@ -145,6 +148,13 @@ def
   p1 -> e1
   ...
   pN -> eN
+```
+
+[Mylti Parameter Typeclass](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/exts/multi_param_type_classes.html)
+```
+class Collection c a where
+    union :: c a -> c a -> c a
+    ...etc.
 ```
 
 

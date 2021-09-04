@@ -7,5 +7,7 @@ layout: default
 
 `cabal init` - makes dir to haskell project
 
-`cabal new-configure`
-`cabal new-buld`
+`cabal new-configure`  
+`cabal new-buld`  
+
+`cabal new-run profiling-example`  

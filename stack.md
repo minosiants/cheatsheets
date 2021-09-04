@@ -8,7 +8,8 @@ layout: default
 [stack dependencies server](https://www.stackage.org/) 
 
 
-$ stack new my-project simple` create a new project 
+`stack new my-project simple` create a new project 
 
+`stack exec profiling-example` execute 
 
 
