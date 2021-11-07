@@ -54,3 +54,6 @@
   ```
 ## Make sbt release signed   
   [add `releasePublishArtifactsAction`](https://github.com/sbt/sbt-release#publishing-signed-releases)    
+
+## More
+ -[Switch In Between Customers](https://dirkbolte.medium.com/switch-in-between-customers-aa502ffd04ab)  
