@@ -10,7 +10,7 @@ layout: default
 [`nnn`](https://github.com/jarun/nnn)  - file manager  
 [`starship`](https://github.com/starship/starship)  - cross shell prompt  
 [`hyper`](https://github.com/vercel/hyper) - A terminal built on web technologies 
-
+[`diff-so-fancy`](https://github.com/so-fancy/diff-so-fancy) -strives to make your diffs human readable instead of machine readable.   
 #### [from here](https://www.chrisatmachine.com/Neovim/08-fzf/)  
 [`fzf`](https://github.com/junegunn/fzf) - general-purpose command-line fuzzy finder  
 [`ripgrep`](https://github.com/BurntSushi/ripgrep) - a line-oriented search tool that recursively searches your current directory for a regex pattern.  
