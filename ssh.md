@@ -26,6 +26,6 @@ Host dev
 `scp ./file_rsa.pub username@remote-hostname:~/.ssh` copy pub key to remote server  
 
 
-`ssh-copy-id -i ~/.ssh/id_rsa user@remote-hostname`  
+`ssh-copy-id -i ~/.ssh/id_rsa user@remote-hostname`  add pub key to remote server   
 
 

@@ -27,6 +27,8 @@ http://vimawesome.com/
 `Ctrl + r`  - redo 
 `Ctrl + w`
 `Ctrl + g`             - display files name 
+`b`         - back to the workd beginning  
+`e`         - to the words end  
 
 `dawbP`         -  swap words [swapping](https://vim.fandom.com/wiki/Swapping_characters,_words_and_lines#Related_plugins)  
 `:! {shell command}`      - run shell command  
