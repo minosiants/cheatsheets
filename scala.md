@@ -2,6 +2,11 @@
 title: Scala
 layout: default
 ---
+
+`sealed abstract case class Password private (value:String)` - Case class with private constructor  
+
+
+
 http://www.edofic.com/posts/2014-03-07-practical-future-option.html
 
 #### Tools
