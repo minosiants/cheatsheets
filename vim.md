@@ -28,6 +28,8 @@ xp`        - swap to letters
 `Ctrl + r`  - redo 
 `Ctrl + w`
 `Ctrl + g`             - display files name 
+`b`         - back to the workd beginning  
+`e`         - to the words end  
 
 `dawbP`         -  swap words [swapping](https://vim.fandom.com/wiki/Swapping_characters,_words_and_lines#Related_plugins)  
 `:! {shell command}`      - run shell command  
@@ -36,7 +38,11 @@ xp`        - swap to letters
 `:split /path/to/file`    - [open a new winwow](https://dev.to/iggredible/using-buffers-windows-and-tabs-efficiently-in-vim-56jc)  
 `ctrl-w ctrl-w`           - [move cursor to another window](https://cs.oberlin.edu/~kuperman/help/vim/windows.html)  
 `:40vs +Ex`               - open explorer in a vertical split    
+`caw`                     - change around word. Changes the word your cursor is in.
+`ds”`                     - delete surrounding double quotes.
+`yi[`                     - yank inside square brackets.
 
+vat = select around tag.
 ##### find and replace string
 `:s/search/replace/g` - once  
 `:8,10 s/search/replace/g ` - range  
