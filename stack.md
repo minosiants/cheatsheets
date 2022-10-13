@@ -12,4 +12,5 @@ layout: default
 
 `stack exec profiling-example` execute 
 
+`stack ghci --package unix-time` load package  
 
