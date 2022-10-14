@@ -9,7 +9,7 @@ http://vimawesome.com/
 
 `y$`       - copy from cursor till end of the line  
 `X`        -  delete previos symbol  
-xp`        - swap to letters  
+`xp`        - swap to letters  
 `d t x`     - delete till x   
 `:m -2`     - move line 1 line above  
 `:e path/to/file` - open file for editing in new buffer   
