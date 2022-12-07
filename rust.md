@@ -12,3 +12,7 @@ layout: default
 # Documentation
   - https://www.rust-lang.org/learn  
   - https://cheats.rs/  
+
+# Tools       
+  - (helz - A post-modern modal text editor)[https://github.com/helix-editor/helix]  
+  -
