@@ -16,5 +16,5 @@ layout: default
 [`ripgrep`](https://github.com/BurntSushi/ripgrep) - a line-oriented search tool that recursively searches your current directory for a regex pattern.  
 [`fd`](https://github.com/sharkdp/fd) - fd is a program to find entries in your filesytem.  
 [the silver search](https://github.com/ggreer/the_silver_searcher)  - A code searching tool similar to `ack` , with a focus on speed.  
-
+[hex viewer](https://github.com/sharkdp/hexyl)  
 
