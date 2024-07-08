@@ -14,5 +14,7 @@ layout: default
   - https://cheats.rs/  
 
 # Tools       
-  - (helz - A post-modern modal text editor)[https://github.com/helix-editor/helix]  
-  -
+  - [rustfmt to keep code tidy](https://rust-lang.github.io/rustfmt/)
+  - [clippy to improve code quality](https://doc.rust-lang.org/clippy/)
+  - [sccache to reducing compile times](https://github.com/mozilla/sccache)
+  - [helz - A post-modern modal text editor](https://github.com/helix-editor/helix)
