@@ -23,3 +23,9 @@ layout: default
   - [cargo-watch](https://github.com/watchexec/cargo-watch)
   - [cargo-tree examin dependencies](https://github.com/sfackler/cargo-tree) - part of cargo now
   - [helz - A post-modern modal text editor](https://github.com/helix-editor/helix)
+# Testing libraries
+  - [proptest](https://github.com/proptest-rs/proptest)
+  - [test-case](https://github.com/frondeus/test-case)
+# Libs
+  - [lazy-static.rs](https://github.com/rust-lang-nursery/lazy-static.rs)
+  - 
