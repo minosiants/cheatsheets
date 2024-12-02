@@ -15,6 +15,11 @@ layout: default
 [`fzf`](https://github.com/junegunn/fzf) - general-purpose command-line fuzzy finder  
 [`ripgrep`](https://github.com/BurntSushi/ripgrep) - a line-oriented search tool that recursively searches your current directory for a regex pattern.  
 [`fd`](https://github.com/sharkdp/fd) - fd is a program to find entries in your filesytem.  
-[the silver search](https://github.com/ggreer/the_silver_searcher)  - A code searching tool similar to `ack` , with a focus on speed.  
-[hex viewer](https://github.com/sharkdp/hexyl)  
+[`the silver search`](https://github.com/ggreer/the_silver_searcher)  - A code searching tool similar to `ack` , with a focus on speed.  
+[`hex viewer`](https://github.com/sharkdp/hexyl)  
+[`difftastic`](https://github.com/Wilfred/difftastic) - a structural diff that understands syntax
+[`just`](https://github.com/casey/just) - Just a command runner 
+[`hyperfine`](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
+[`procs`](https://github.com/dalance/procs) - A modern replacement for ps written in Rust
+
 
